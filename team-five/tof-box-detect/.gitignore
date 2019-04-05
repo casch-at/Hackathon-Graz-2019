@@ -1,0 +1,36 @@
+# From `wstool_update`
+/src/jog_arm/
+
+# From `catkin build` or 'catkin_make_isolated'
+/.catkin_tools/
+/build/
+/devel/
+/logs/
+/build_isolated/
+/devel_isolated/
+cmake-build-debug
+
+# temoprarily generated pictures in /docs/
+/docs/*.png
+/docs/*.svg
+/docs/.asciidoctor/
+
+# From `astyle`
+*.orig
+
+# Linux
+.directory
+core
+!core/
+
+# Python
+*.pyc
+
+# IDEs
+.cache
+.idea
+.vscode
+*.user
+
+# Machinekit
+autosave.halscope
